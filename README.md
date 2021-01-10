@@ -11,7 +11,8 @@ React-Chat-App is a react application developed for users to chat. Inorder to ch
 **2. Move into the directory:**
 #### `cd React-Chat-App`
 **3. Remove .lock files if any present in the repository**
-**4. Open terminal and to install necessary modules run**
+**4. Add the required configurations in App.js**
+**5. Open terminal and to install necessary modules run**
 #### `yarn`
 **5. To start the application run**
 #### `yarn start`
