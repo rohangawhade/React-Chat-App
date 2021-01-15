@@ -8,9 +8,27 @@ import 'firebase/auth';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
-firebase.initializeApp({
-})
+const{
+  REACT_APP_apiKey,
+  REACT_APP_authDomain,
+  REACT_APP_databaseURL,
+  REACT_APP_projectId,
+  REACT_APP_storageBucket,
+  REACT_APP_messagingSenderId,
+  REACT_APP_appId,
+  REACT_APP_measurementId
+} = process.env;
 
+firebase.initializeApp({
+  apiKey: REACT_APP_apiKey,
+  authDomain: REACT_APP_authDomain,
+  databaseURL: REACT_APP_databaseURL,
+  projectId: REACT_APP_projectId,
+  storageBucket: REACT_APP_storageBucket,
+  messagingSenderId: REACT_APP_messagingSenderId,
+  appId: REACT_APP_appId,
+  measurementId: REACT_APP_measurementId
+})
 const auth = firebase.auth();
 const firestore = firebase.firestore();
 
