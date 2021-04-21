@@ -1,6 +1,6 @@
 # About
 
-React-Chat-App is a react application developed for users to chat. Inorder to chat, the user must Signin first.
+React-Chat-App is a react application developed for users to chat in one place. Inorder to chat, the user must Signin first.
 
 ### You can try the application here: [Chat-App](https://chat-app-be6ce.web.app/)
 
